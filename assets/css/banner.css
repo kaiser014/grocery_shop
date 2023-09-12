@@ -1,0 +1,95 @@
+/* Welcome Message Start */
+.welcome-message {
+    padding: 6px 0;
+    border-top: 2px solid #d96908;
+    border-bottom: 2px solid #d96908;
+}
+.welcome-message_info {
+    text-align: center;
+}
+.welcome-header {
+    color: #fff;
+    font-weight: 600;
+}
+.welcome-body {
+    color: #fff;
+}
+.welcome-body a {
+    color: #fff;
+    font-weight: 600;
+}
+.welcome-body a:hover {
+    color: #252323;
+    text-decoration: underline;
+}
+/* Welcome Message End */
+/* Banner Section */
+.banner-section {
+    background-color: #fbf4ea;
+    padding: 30px 0;
+}
+.banner-image {
+    text-align: end;
+}
+.banner-image img {
+    width: 80%;
+}
+.banner-content h4 {
+    text-transform: uppercase;
+    color: #65a523;
+    font-weight: 600;
+    font-size: 20;
+    margin-bottom: 5px;
+}
+.banner-content h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #d96908;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.banner-content h1 span {
+    color: #65a523;
+}
+.banner-content p {
+    color: #535353;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.banner-btn {
+    padding: 12px 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.banner-btn:hover {
+    color: #fff;
+}
+.banner-btn span svg {
+    margin-left: 3px;
+}
+
+@media screen and (max-width: 600px) {
+    .welcome-body {
+        font-size: 15px;
+    }
+    .welcome-header{
+        margin-bottom: 5px;
+    }
+    .welcome-message {
+        border-top: 2px solid #fff;
+    }
+    .banner-content h4 {
+        font-size: 18px;
+    }
+    .banner-content h1{
+        font-size: 26px;
+    }
+    .banner-content p{
+        font-size: 14px;
+    }
+    .banner-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
