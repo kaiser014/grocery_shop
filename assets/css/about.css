@@ -1,0 +1,112 @@
+/* .about-left-item {
+    padding-bottom: 20px;
+} */
+.about-section {
+    padding: 30px 0;
+}
+.about-us-image{
+    background-image: url('../images/grocery_about.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    position: relative;
+}
+.about-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.about-us-title{
+    position: relative;
+    text-align: center;
+}
+.about-us-title h1{
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.about-us-content {
+    background-color: #fff;
+    border: 0px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.about-all-content{
+    margin-top: 30px;
+}
+.about-us-content h1 {
+    color: #d96908;
+    font-size: 25px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #558d1c;
+}
+.aboutus-details p {
+    color: #5c5c5c;
+    margin-bottom: 3px;
+}
+.aboutus-details p:first-child {
+    margin-top: 10px;
+}
+.aboutus-details p:last-child {
+    margin-bottom: 0px;
+}
+.aboutus-founder-details{
+    margin-top: 30px;
+}
+.aboutus-founder-details h4{
+    color: #d96908;
+    margin-bottom: 10px;
+}
+.aboutus-founder-details h4 span{
+    color: #558d1c;
+    font-weight: 600;
+    font-size: 18px;
+}
+/* Responsive Media Query*/
+@media only screen and (max-width: 600px) {
+    .about-us-content {
+        border-radius: 5px;
+    }
+    .about-us-content h1 {
+        font-size: 19px;
+    }
+    .aboutus-details p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .about-us-content h1 {
+        font-size: 24px;
+    }
+    .aboutus-details p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .about-us-content h1 {
+        font-size: 26px;
+    }
+    .aboutus-details p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .about-us-content h1 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .about-us-content h1 {
+        font-size: 25px;
+    }
+}
